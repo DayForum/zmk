@@ -74,8 +74,12 @@ RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)  RC(2,6) RC(2,7) RC(2,8) RC(2,9) RC(2,10
 		page-offset = <0>;
 		display-offset = <0>;
 		multiplex-ratio = <31>;
+
+		//comment next two lines to rotate RIGHT displays
 		segment-remap;
 		com-invdir;
+		//comment next two lines to rotate RIGHT displays
+
 		com-sequential;
 		prechargep = <0x22>;
 	};
