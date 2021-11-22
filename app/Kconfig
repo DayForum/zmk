@@ -488,6 +488,10 @@ config ZMK_WPM
 	bool "Calculate WPM"
 	default n
 
+config ZMK_CPM
+	bool "Calculate CPM"
+	default n
+
 config SENSOR
 	default y
 
